@@ -1,0 +1,91 @@
+
+.container{
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 2px solid gray;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.control{
+    text-align: center;
+    height: 100px;
+    border-bottom: 2px solid gray;
+}
+
+.control h2{
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.gamebox{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.line{
+    width: 100px;
+    height: 400px;
+    box-shadow: 1px 0 0 0 rgba(0,0,0,0.1);
+    float: left;
+}
+
+.game{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: -400px;
+    border-collapse:collapse;
+}
+
+.row{
+    height: 100px;
+    width: 100%;
+}
+
+.cell{
+    height: 100px;
+    width: 100px;
+    float: left;
+    box-shadow: 1px 1px 0 0 rgba(0,0,0,0.1);
+}
+
+.black {
+    background: black;
+}
+
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.1);
+}
+.button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #999;
+    cursor: pointer;
+}

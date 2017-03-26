@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>别踩白块</title>
+	<link rel="stylesheet" type="text/css" href="src/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="control">
+			<h2>score</h2>
+    		<h2 class="score">0</h2>
+		</div>
+		<div class="gamebox">
+			<div class="bg">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<div class="game"></div>
+			<div class="mask">
+				<a class="button" onclick="start()">开始</a>
+			</div>
+		</div>
+	</div>
+	<script src="src/jquery-2.0.0.min.js"></script>
+	<script src="src/index.js"></script>
+	<script type="text/javascript">
+		init()
+	</script>
+</body>
+</html>
